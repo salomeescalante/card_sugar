@@ -1,0 +1,64 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background: linear-gradient(30deg, crimson,sienna, royalblue, indianred, purple);
+    height: 700px;
+}
+.title_card{
+    text-align:center;
+    font-size: 2.5em;
+    color:#fff;
+    letter-spacing: -7px;
+    font-weight:700;
+    text-transform:uppercase;
+    animation:blur .75s ease-out infinite;
+    text-shadow:0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+.card_img_info{
+    display: flex;
+    
+}
+.info_card{
+    list-style: none;
+    margin-top: 30px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+   
+}
+
+.title_info{
+    color: #fff;
+}
+.img_card{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: -20px;
+    margin: 0 auto;
+    border: solid #850E35 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.sumar_amigo{
+    width: 50px;
+    display: flex;
+    color: #fff;
+    margin-top: -100px;
+    margin-left: 20px;
+    background-image: solid #fff;
+
+}
